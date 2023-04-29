@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-'''Tasks 12.
+'''Task 12
 '''
 from typing import List, Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
-    
+    '''having a  multiple copies of items in a tuple.
+    '''
     zoomed_in: List = [
         item for item in lst
         for i in range(int(factor))

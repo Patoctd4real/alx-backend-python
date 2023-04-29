@@ -10,7 +10,8 @@ Def = Union[T, None]
 
 
 def safely_get_value(dct: Mapping, key: Any, default: Def = None) -> Res:
-    
+    '''collect a value from a dict using a given key.
+    '''
     if key in dct:
         return dct[key]
     else:
