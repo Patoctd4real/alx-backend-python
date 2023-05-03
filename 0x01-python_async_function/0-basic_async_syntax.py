@@ -1,15 +1,13 @@
 #!/usr/bin/env python3
-'''taskz 0 Write an asynchronous coroutine.
+'''Task 0' my module tasks.
 '''
 import asyncio
 import random
 
 
 async def wait_random(max_delay: int = 10) -> float:
+    '''Waits for some second before random number.
     '''
-    Returns a random float between 0 and max_delay
-    Args:
-    '''
-    merge = random.uniform(0, max_delay)
-    await asyncio.sleep(merge)
-    return merge
+    show_time = random.random() * max_delay
+    await asyncio.sleep(show_time)
+    return show_time
