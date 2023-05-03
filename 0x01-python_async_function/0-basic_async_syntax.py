@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-""" task0.0 basics of async"""
-
+'''taskz 0 Write an asynchronous coroutine.
+'''
 import asyncio
 import random
 
 
 async def wait_random(max_delay: int = 10) -> float:
-    """
-    asynchronous coroutine that takes in an integer argument
-    """
-    marge = random.uniform(0, max_delay)
-    await asyncio.sleep(marge)
-    return marge
+    '''
+    Returns a random float between 0 and max_delay
+    Args:
+    '''
+    merge = random.uniform(0, max_delay)
+    await asyncio.sleep(merge)
+    return merge
