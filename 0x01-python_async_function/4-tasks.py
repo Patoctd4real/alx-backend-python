@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-'''Task 0.4 return a tasks' 
+'''Task 0.4 return a tasks.
 '''
 import asyncio
 from typing import List
